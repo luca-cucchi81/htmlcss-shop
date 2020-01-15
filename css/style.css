@@ -45,6 +45,7 @@ header {
 
 .primo {
     position: absolute;
+    display: inline-block;
     height: 400px;
     margin-top: 20px;
     box-shadow: 2px 2px 10px 1px;
@@ -65,17 +66,27 @@ span {
 
 #cuore  {
     position: absolute;
-    font-size: 100px;
+    font-size: 80px;
     margin: 0 40%;
+    box-sizing: content-box;
+    background-color: white;
+    border-radius: 1em;
     bottom: 3px;
     color: #ececec;
+    display: none;
 }
 
+.primo:hover #cuore{
+    display:inline-block;
+}
+
+.secondo:hover #cuore{
+    display: inline-block;
+}
 #cuore:hover{
     cursor: pointer;
     color: red;
 }
-
 
 #chitarra {
     left: 20px;
@@ -91,6 +102,7 @@ span {
 
 .secondo {
     position: absolute;
+    display: inline-block;
     height: 400px;
     margin-top: 20px;
     box-shadow: 2px 2px 10px 1px;
