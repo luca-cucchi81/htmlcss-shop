@@ -19,22 +19,38 @@ header{
 
 .container-1{
     position: relative;
-    width: 1000px;
-    height: auto;
+    width: 980px;
+    height: 800px;
     margin: 0 auto;
     background-color: #dec7a0;
     border: 1px solid #dec7a0;
     box-shadow: 2px 2px 5px 5px #dec7a0;
-
 }
 
 .container-2{
-    position: relative;
     width: 1000px;
     height: auto;
     margin: 0 auto;
     background-color: #dec7a0;
     border: 1px solid #dec7a0;
     box-shadow: 2px 2px 5px 5px #dec7a0;
+}
 
+.primo{
+    position: absolute;
+    border-radius: 2px;
+    height: 400px;
+    box-shadow: 2px 2px 10px 1px;
+}
+
+#chitarra{
+    left: 20px;
+}
+
+#basso{
+    left: 340px;
+}
+
+#batteria{
+    left: 660px;
 }
