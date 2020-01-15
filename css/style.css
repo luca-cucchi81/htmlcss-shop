@@ -63,6 +63,15 @@ span {
     font-weight: 700;
 }
 
+#cuore{
+    position: absolute;
+    font-size: 200px;
+    left: 30%;
+    top: 20%;
+    display: none;
+}
+
+
 #chitarra {
     left: 20px;
 }
@@ -93,6 +102,7 @@ span {
 #microfono {
     left: 660px;
 }
+
 
 img:hover{
     opacity: 0.5;
