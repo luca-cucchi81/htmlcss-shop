@@ -69,10 +69,9 @@ span {
     font-size: 80px;
     margin: 0 40%;
     box-sizing: content-box;
-    background-color: white;
     border-radius: 1em;
     bottom: 3px;
-    color: #ececec;
+    color: #e6ff03;
     display: none;
 }
 
@@ -85,7 +84,6 @@ span {
 }
 #cuore:hover{
     cursor: pointer;
-    color: red;
 }
 
 #chitarra {
