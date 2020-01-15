@@ -16,11 +16,11 @@ header {
     font-size: 40px;
     font-weight: 700;
     margin-top:50px;
-    color: #fcf408;
+    color: #19b044;
 }
 
 .principale {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .container-1 {
@@ -95,6 +95,12 @@ span {
 }
 
 img:hover{
+    opacity: 0.5;
     cursor: pointer;
-    opacity: 1;
+}
+
+footer{
+    text-align: center;
+    font-size: 20px;
+    color: #19b044;
 }
