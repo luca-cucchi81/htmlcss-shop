@@ -17,8 +17,20 @@ header{
 }
 
 
-.container {
-    width: 80%;
+.container-1{
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #dec7a0;
+    border: 1px solid #dec7a0;
+    box-shadow: 2px 2px 5px 5px #dec7a0;
+
+}
+
+.container-2{
+    position: relative;
+    width: 1000px;
     height: auto;
     margin: 0 auto;
     background-color: #dec7a0;
