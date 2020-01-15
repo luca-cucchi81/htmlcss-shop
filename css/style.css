@@ -63,12 +63,17 @@ span {
     font-weight: 700;
 }
 
-#cuore{
+#cuore  {
     position: absolute;
-    font-size: 200px;
-    left: 30%;
-    top: 20%;
-    display: none;
+    font-size: 100px;
+    margin: 0 40%;
+    bottom: 3px;
+    color: #ececec;
+}
+
+#cuore:hover{
+    cursor: pointer;
+    color: red;
 }
 
 
@@ -101,12 +106,6 @@ span {
 
 #microfono {
     left: 660px;
-}
-
-
-img:hover{
-    opacity: 0.5;
-    cursor: pointer;
 }
 
 footer{
