@@ -20,7 +20,7 @@ header{
 .container-1{
     position: relative;
     width: 980px;
-    height: 800px;
+    height: 440px;
     margin: 0 auto;
     background-color: #dec7a0;
     border: 1px solid #dec7a0;
@@ -28,8 +28,8 @@ header{
 }
 
 .container-2{
-    width: 1000px;
-    height: auto;
+    width: 980px;
+    height: 440px;
     margin: 0 auto;
     background-color: #dec7a0;
     border: 1px solid #dec7a0;
@@ -38,9 +38,22 @@ header{
 
 .primo{
     position: absolute;
-    border-radius: 2px;
     height: 400px;
+    margin-top: 20px;
     box-shadow: 2px 2px 10px 1px;
+}
+
+span{
+    display: inline-block;
+    position: relative;
+    left: 220px;
+    bottom: 380px;
+    background-color: red;
+    padding: 10px;
+    border: 3px solid orange;
+    border-radius: 50%;
+    color: yellow;
+    font-weight: 700;
 }
 
 #chitarra{
