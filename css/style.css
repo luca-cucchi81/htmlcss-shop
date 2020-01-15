@@ -16,7 +16,7 @@ header {
     font-size: 40px;
     font-weight: 700;
     margin-top:50px;
-    color: #ececec;
+    color: #fcf408;
 }
 
 .principale {
@@ -92,4 +92,9 @@ span {
 
 #microfono {
     left: 660px;
+}
+
+img:hover{
+    cursor: pointer;
+    opacity: 1;
 }
